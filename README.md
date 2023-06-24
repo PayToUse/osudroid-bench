@@ -19,11 +19,10 @@ Please take note that this project uses javascript, which it's executed mainly a
 # Features
 the features used in this project are listed here:
 
-- **Table Sorting**
-
-how does table sorting work? this feature works by clicking on the table headers, and it sorts the table alphabetically from a to z, the sort can also be reversible to sort from z to a.
-
-it also works with numbers, it also works like the alphabet, from 0 to 9, and it can also be reversible from 9 to 0.
+| Feature | Status |
+|-----|-----|
+| Table Sorting | Added |
+| Hovering Animations | In progress.. |
 
 # Submitting Scores
 Wanted to see your phone model in the website? Please submit your very own score by [clicking here](https://forms.gle/1vbqbEbiLirCobmC6) and complete the survey to submit your score.
