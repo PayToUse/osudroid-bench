@@ -23,6 +23,9 @@ the features used in this project are listed here:
 |-----|-----|
 | Table Sorting | Added |
 | Hovering Animations | In progress.. |
+| Website Animations | Added |
+
+We are planning to add new features to the website, if it's possible to be added
 
 # Submitting Scores
 Wanted to see your phone model in the website? Please submit your very own score by [clicking here](https://forms.gle/1vbqbEbiLirCobmC6) and complete the survey to submit your score.
