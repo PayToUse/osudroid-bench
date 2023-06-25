@@ -46,18 +46,18 @@
             <h5>we had updated the form with a new question, just in case there are no concerns and reports of no question for some new table rows.</h5>
             <h5>before you report your device's benchmark score, please <a href="beatmaps/benchmark-beatmap.osz" download>download this benchmark beatmap</a> here and test it.</h5>
             <h5>one more thing, you can click on a table header to sort it.</h5>
-            <table id="benchmarkTable">
+            <table class="benchmarkTable" id="benchmarkTable">
                 <center>
                     <tr>
-                        <th onclick="sortTable(0)">Phone</th>
-                        <th onclick="sortTable(1)">Manufacturer</th>
-                        <th onclick="sortTable(2)">Processor / SoC</th>
-                        <th onclick="sortTable(3)">SoC Brand</th>
-                        <th onclick="sortTable(4)">Process</th>
-                        <th onclick="sortTable(5)">Refresh Rate</th>
-                        <th onclick="sortTable(6)">Average FPS</th>
-                        <th onclick="sortTable(7)">Minimum FPS</th>
-                        <th onclick="sortTable(8)">Year Released</th>
+                        <th onclick="sortTable('benchmarkTable', 0)">Phone</th>
+                        <th onclick="sortTable('benchmarkTable', 1)">Manufacturer</th>
+                        <th onclick="sortTable('benchmarkTable', 2)">Processor / SoC</th>
+                        <th onclick="sortTable('benchmarkTable', 3)">SoC Brand</th>
+                        <th onclick="sortTable('benchmarkTable', 4)">Process</th>
+                        <th onclick="sortTable('benchmarkTable', 5)">Refresh Rate</th>
+                        <th onclick="sortTable('benchmarkTable', 6)">Average FPS</th>
+                        <th onclick="sortTable('benchmarkTable', 7)">Minimum FPS</th>
+                        <th onclick="sortTable('benchmarkTable', 8)">Year Released</th>
                     </tr>
                     <tr>
                         <td>Huawei Nova 9</td>
