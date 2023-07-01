@@ -24,6 +24,7 @@ the features used in this project are listed here:
 | Table Sorting | Added |
 | Hovering Animations | Added |
 | Website Animations | Added |
+| Page Views | In progress... |
 
 We are planning to add new features to the website, if it's possible to be added
 
