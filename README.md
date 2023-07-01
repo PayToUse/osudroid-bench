@@ -22,7 +22,7 @@ the features used in this project are listed here:
 | Feature | Status |
 |-----|-----|
 | Table Sorting | Added |
-| Hovering Animations | In progress.. |
+| Hovering Animations | Added |
 | Website Animations | Added |
 
 We are planning to add new features to the website, if it's possible to be added
