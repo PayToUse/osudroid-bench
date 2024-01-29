@@ -1,0 +1,50 @@
+#table {
+  margin: auto;
+  overflow: auto;
+  border: 1px solid #000000;
+  width: 300px;
+  font-size: 10pt;
+  text-align: center;
+}
+
+#table td:nth-child(even),
+#table th:nth-child(even) {
+  background-color: #33333380;
+}
+
+#table td:nth-child(odd),
+#table th:nth-child(odd) {
+  background-color: #22222280;
+}  
+
+.typewrite {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.button {
+  text-align: center;
+  align-self: center;
+}
+
+#ko-fi {
+  width: 250px;
+  margin: 4px auto;
+  padding: 15px;
+}
+
+#osu {
+  width: 200px;
+  padding: 15px;
+}
+
+#bm,
+#gf {
+  color: #0000BF;
+  text-decoration: none;
+}
+
+#table td {
+  padding: 2px;
+  background-color: #222222;
+}

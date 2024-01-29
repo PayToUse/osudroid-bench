@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark">
+<head>
+  <!-- Metas -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="osu, osu! osu!droid, droid, benchmark, bench, android, pc">
+  <meta name="description" content="an osu!droid benchmarking project for web browsers">
+  <meta name="author" content="LouieNotHere">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="cdn_modules/bootstrap@5.3.2/css/bootstrap.min.css">
+
+  <!-- Scripts -->
+  <script src="main.js"></script>
+  <script src="cdn_modules/bootstrap@5.3.2/js/bootstrap.min.js"></script>
+  <script src="cdn_modules/bootstrap@5.3.2/js/bootstrap.bundle.min.js"></script>
+  <script src="cdn_modules/jquery@3.7.1/jquery.min.js"></script>
+
+  <title>osudroid!bench</title>
+</head>
+<body>
+  <!-- Contents -->
+  <div class="container-fluid p-3 bg-secondary text-white text-center">
+    <img id="osu">
+    <h1>osudroid!bench</h1>
+    <h4>
+      <a href="" class="typewrite" data-period="2000" data-type='["a benchmarking website project", "Welcome to osu!", "Made by LouieNotHere", "Click the circles!", "Hold the sliders!", "Spin the spinner!", "Requires three skills", "Keyboard and mouse needed", "Holy gyatt", "Related to osu!droid", "Not affiliated with osu!"]'>
+        <span class="wrap"></span>
+      </a>
+    </h4>
+  </div>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col sm-4">
+        <h3>Description</h3>
+        <p>This is an osu!droid-related benchmarking project, where you can test your phone to play a provided osu! beatmap that is overmapped.</p>
+      </div>
+      <div class="col sm-3">
+        <h3>Requirements</h3>
+        <p>This web project only requires the osu!droid app, and the osu! beatmap which can be downloaded by <a id="bm" href="resources/benchmark-beatmap.osz" download>clicking here</a></p>
+      </div>
+      <div class="col sm-3">
+        <h3>Instructions</h3>
+        <p>Import the beatmap, and play it on auto. <i>Make sure the FPS setting is enabled and have an eye on it.</i></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column sm-3">
+        <h3>Table</h3>
+        <p>Here is a table. You can look around and check the performance of each phone provided. It could whether be useful or not useful, but it would depend on your experience. If you want your phone's benchmark score to show up, you can <a id="gf" href="https://docs.google.com/forms/d/e/1FAIpQLSdTaKa6qpQVywX_3WfZwe3vJStE8gKLgDZChglnNx_sWnY_ng/viewform?pli=1">click here to fill this form</a></p>
+        <p>There is currently an issue where the table's width is higher than the usual width of a mobile smartphone, well I guess I could recommend you to view this on a tablet, or on a computer.</p>
+      </div>
+    </div>
+    <div class="row">
+      <a href="https://ko-fi.com/paytouse1774" class="button">
+        <img id="ko-fi">
+      </a>
+    </div>
+    <div class="row">
+      <table class="table" id="table">
+        <tr>
+          <th onclick="sortTable('table', 0)">Smartphone</th>
+          <th onclick="sortTable('table', 1)">Manufacturer</th>
+          <th onclick="sortTable('table', 2)">SoC</th>
+          <th onclick="sortTable('table', 3)">Process</th>
+          <th onclick="sortTable('table', 4)">Refresh Rate</th>
+          <th onclick="sortTable('table', 5)">Avg FPS</th>
+          <th onclick="sortTable('table', 6)">Min FPS</th>
+          <th onclick="sortTable('table', 7)">Year</th>
+        </tr>
+      </table>
+    </div>
+  </div>
+  
+  <!-- Scripts -->
+  <script src="database.js"></script>
+  <script type="text/javascript">
+    let table = document.getElementById("table");
+
+    for (let row of db) {
+      table.insertRow();
+      for (let cell of row) {
+        let nc = table.rows[table.rows.length - 1].insertCell();
+        nc.textContent = cell;
+      }
+    }
+
+    document.body.appendChild(table);
+  </script>
+</body>
+</html>
