@@ -82,8 +82,8 @@ function sortTable(tableClass, n) {
 }
 
 window.onload = function() {
-  document.getElementById("osu").src = "./img/osulogo.svg";
-  document.getElementById("ko-fi").src = "./img/ko-fi.png";
+  document.getElementById("osu").src = "//img/osulogo.svg";
+  document.getElementById("ko-fi").src = "//img/ko-fi.png";
 
   var elements = document.getElementsByClassName('typewrite');
   for (var i = 0; i < elements.length; i++) {
