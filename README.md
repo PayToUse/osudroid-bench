@@ -1,5 +1,5 @@
 # osudroid!bench
-<img src="/medias/osulogo.svg">
+<img src="/img/osulogo.svg">
 
 ![github repository size](https://img.shields.io/github/repo-size/PayToUse/osudroid-bench?style=flat-square)
 ## All about this project
