@@ -37,9 +37,7 @@ Wanted to see your phone model to show up in the website? Please submit your ben
 ## Assets Credits
 osu! Logo (SVG Version) - [wikimedia commons link](https://commons.m.wikimedia.org/wiki/File:Osu!_Logo_2016.svg)
 
-Breeze Sans Font (Samsung Electronics) - [font link](https://developer.samsung.com/one-ui-watch-tizen/visual/typography.html)
-
-Fredoka Font (Google Fonts) - font [link](https://fonts.google.com/specimen/Fredoka)
+Ko-fi Brand Assets - [link](https://more.ko-fi.com/brand-assets)
 
 ## License
 This web project (**osudroid!bench**) is licensed under the **GNU General Public License v3.0**, please [click here](https://github.com/PayToUse/osudroid-bench/blob/main/LICENSE) for more details about the license.
