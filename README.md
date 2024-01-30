@@ -39,6 +39,9 @@ osu! Logo (SVG Version) - [wikimedia commons link](https://commons.m.wikimedia.o
 
 Ko-fi Brand Assets - [link](https://more.ko-fi.com/brand-assets)
 
+## Note
+This web project is currently not displaying stuff properly, so I might move the page itself and it's files to another hosting application
+
 ## License
 This web project (**osudroid!bench**) is licensed under the **GNU General Public License v3.0**, please [click here](https://github.com/PayToUse/osudroid-bench/blob/main/LICENSE) for more details about the license.
 
